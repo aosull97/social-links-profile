@@ -6,30 +6,42 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link href="src/output.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+<body class="h-screen flex flex-col font-inter bg-grey-900">
+  <main class="m-auto text-white w-96" >
+    <div class="flex flex-col text-center p-10 rounded-lg bg-grey-800" >
+      <div class="pb-4">
+        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall" class="rounded-full h-20 w-20 m-auto" />
+      </div>
+      
+      <h1 class="text-2xl font-semibold pb-2">Jessica Randall</h1>
+      <h2 class="text-sm pb-6 text-green">London, United Kingdom</h2>
+      <h3 class="text-sm font-light pb-4">"Front-end Developer and avid reader."</h3>
+      <div class="text-sm font-semibold flex flex-col gap-2 w-full">
+        <a class="p-3 rounded-md bg-grey-700 hover:bg-green hover:text-grey-900" href="https://github.com/login"><button>GitHub</button></a>
+        <a class="p-3 rounded-md bg-grey-700 hover:bg-green hover:text-grey-900" href="https://www.frontendmentor.io/home"><button>Frontend Mentor</button></a>
+        <a class="p-3 rounded-md bg-grey-700 hover:bg-green hover:text-grey-900" href="https://uk.linkedin.com/"><button>LinkedIn</button></a>
+        <a class="p-3 rounded-md bg-grey-700 hover:bg-green hover:text-grey-900" href="https://x.com/?lang=en"><button>Twitter</button></a>
+        <a class="p-3 rounded-md bg-grey-700 hover:bg-green hover:text-grey-900" href="https://www.instagram.com/"><button>Instagram</button></a>
+      </div>
+    </div>
+  </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.linkedin.com/in/aliceosullivan97">Alice O'Sullivan</a>.
+  </footer>
 </body>
 </html>
