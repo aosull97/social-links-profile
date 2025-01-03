@@ -23,7 +23,7 @@ The challenge was to build a social links profile and get it looking as close to
 
 ### Screenshot
 
-![](/assets/images/social-links-solution-screenshot.png)
+![](/assets/images/social-links-screenshot.png)
 
 ### Links
 
