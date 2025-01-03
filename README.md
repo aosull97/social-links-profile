@@ -39,7 +39,7 @@ I first looked over the provided design brief to see what the finished product s
 
 ### What I learned
 
-I learnt that a button needs wrapping in an <a> tag with an href attribute in order for it to take you to a link.
+I learnt that a button needs wrapping in an a tag with an href attribute in order for it to take you to a link.
 
 ```html
 <a href="www.google.com">
